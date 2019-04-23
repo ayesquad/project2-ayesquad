@@ -143,7 +143,7 @@ void dijkstra(struct Graph* graph, int src, int dest, int flag) {
 
 		struct Element* element = extractMin(minHeap);
 		int u = element->v;
-		cout << "element : " << u << endl;
+//		cout << "element : " << u << endl;
 		path[count] = u;
 		if (u == dest) {
 			counted = count;
