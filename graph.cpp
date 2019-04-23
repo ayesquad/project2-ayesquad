@@ -29,7 +29,7 @@ struct Graph* createGraph(int V) {
 
 void addEdge(struct Graph* graph, int src, int dest, int weight) {
 	struct Node* newN = NewNode(dest, weight);
-	if (graph->A[src].head == nullptr) {
+	if (graph->A[src].head == NULL) {
 		graph->A[src].head = newN;
 	}
 	else {
