@@ -28,6 +28,7 @@ int main() {
 		case 'e':
 		case 'E': {
 			printf("The program is going to be terminated.");
+			cout << endl;
 			return 0;
 		}
 				  break;
